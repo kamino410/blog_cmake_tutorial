@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.8)
 project(uftree_lib
     VERSION 1.0.0
     DESCRIPTION "Union-Find tree library"
+    HOMEPAGE_URL "https://example.com"
     LANGUAGES CXX)
 add_library(uftree STATIC ./src/uftree.cpp)
 target_compile_features(uftree PRIVATE cxx_std_11)
