@@ -1,7 +1,6 @@
 #include <iostream>
 
-#include "uftree.hpp"
-#include "uftree/include/uftree.hpp"
+#include <uftree.hpp>
 
 int main() {
   UnionFindTree uf(5);  // 0~4の5つの要素について
